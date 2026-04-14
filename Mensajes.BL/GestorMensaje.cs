@@ -13,5 +13,11 @@
 
         }
 
+        public string procesarDatos(string Nombre, string Apellido, string Correo)
+        {
+            string mensaje = Nombre + " " + Apellido + " " + Correo;
+            return mensaje;
+        }
+
     }
 }
